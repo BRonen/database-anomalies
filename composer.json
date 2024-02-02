@@ -1,0 +1,20 @@
+{
+    "name": "bronen/isolation_example",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bronen\\IsolationExample\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Brenno Rodrigues",
+            "email": "brennopereira6@gmail.com"
+        }
+    ],
+    "scripts": {
+        "start": "php ./src/index.php"
+    },
+    "require": {}
+}
